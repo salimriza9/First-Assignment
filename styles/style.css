@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+.container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.section-gap-y {
+  margin-bottom: 120px;
+}
+
+/* hero section start */
+.hero {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/banner-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.pera {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* hero section end */
+
+/* offer section start*/
+
+.offer-section {
+  text-align: center;
+}
+
+.offer-section h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.offer-section p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.offer-section h3 {
+  color: #070211;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.offer-section img {
+  width: 802.9px;
+  height: 500px;
+}
+/* offer section end*/
+
+/* welcome section start */
+
+.welcome-section {
+  width: 82%;
+  height: 600px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/welcome-everybody.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcome-section .welcome-text-box {
+  padding-left: 126px;
+}
+
+.welcome-section .welcome-text-box h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 642px;
+  margin-bottom: 24px;
+}
+
+.welcome-section .welcome-text-box p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 31px;
+}
+
+.welcome-section .welcome-text-box button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 32px;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+
+.welcome-section .welcome-img-box {
+  padding-right: 144px;
+}
+/* welcome section end */
+
+/* hotel section start */
+
+.hotel-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding-top: 100px;
+}
+
+.hotel-section .hotel-park {
+  text-align: center;
+}
+
+.hotel-section .hotel-park .red {
+  color: red;
+}
+
+.hotel-section .btn-now {
+  text-align: center;
+  padding-top: 48px;
+  border: none;
+  align-items: center;
+  font-family: Inter;
+}
+
+.hotel-section .btn-now button {
+  border-radius: 8px;
+  background: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  display: inline-flex;
+  padding: 16px 32px;
+  margin-bottom: 126px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* hotel section end */
+
+/* coming section start */
+.coming-section {
+  display: flex;
+  align-items: center;
+}
+
+.coming-section .coming-section-left-box {
+  width: 33.33%;
+  margin-right: 40px;
+}
+.coming-section .coming-section-left-box h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.coming-section .coming-section-left-box h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.coming-section .coming-section-left-box p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 393px;
+}
+
+.coming-section .coming-section-middle-box {
+  width: 33.33%;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 29px;
+  /* width: 463px; */
+}
+
+.coming-section .coming-section-right-box {
+  width: 33.33%;
+  /* margin-left: 128px; */
+  /* width: 276px; */
+  /* padding-left: 80px; */
+}
+
+.coming-section .coming-section-right-box h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.coming-section .coming-section-right-box p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-section .coming-section-right-box img {
+  width: 140px;
+  height: 140px;
+}
+
+/* coming section end */
+
+/* holiday section start */
+
+.holiday-section {
+}
+
+.holiday-section .holiday-sales h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.holiday-section .holiday-sales h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+}
+
+.holiday-section .holiday-sales p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1068px;
+}
+
+.holiday-section .holiday-sales .red {
+  color: red;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.holiday-img-discount .holy-1 {
+  padding-right: 50px;
+}
+
+/* holiday section end */
+
+/* portfolio section start */
+
+.portfolio-section {
+  /* margin:  auto;
+  width: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-section .portfolio-box {
+}
+
+.portfolio-section .portfolio-box .portfolio-text {
+}
+
+.portfolio-section .portfolio-box .portfolio-text h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.portfolio-section .portfolio-box .portfolio-text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.portfolio-section .portfolio-box .portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.portfolio-section .portfolio-box .portfolio-text .portfolio-images {
+}
+
+.portfolio-images {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;flex-wrap: wrap;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  width: 424px;
+  height: 450px;
+}
+
+
+/* portfolio section end */
+
+/* subscribe section start */
+
+.subscribe-section {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+
+.subscribe-section .subscribe-box {
+  padding-top: 80px;
+}
+
+.subscribe-section .subscribe-box img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.subscribe-section .subscribe-box h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.subscribe-section .subscribe-box p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin-bottom: 48px;
+}
+
+.search {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+}
+
+.srch {
+  border-radius: 50px;
+  background: #fff;
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.btn {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 210px;
+  height: 72px;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+/* subscribe section end */
+
+/* footer section start */
+
+.footer {
+  background: #070211;
+  font-size: 14px;
+  padding: 60px 0 20px;
+  width: 100%;
+}
+
+.footer-col-1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: right;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.footer-col-2 call {
+}
+
+.app-logo img {
+  width: 64px;
+  height: 64px;
+}
+
+.footer-col-3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-col-4 {
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* footer section  */
