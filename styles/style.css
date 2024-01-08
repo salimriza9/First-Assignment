@@ -40,7 +40,6 @@
 
 .heading {
   color: #fff;
-
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
@@ -148,7 +147,6 @@
   text-transform: uppercase;
   margin-left: 32px;
   cursor: pointer;
-  /* border: 1px solid; */
 }
 
 .welcome-section .welcome-img-box {
@@ -251,7 +249,7 @@
 
 .coming-section .coming-section-right-box {
   width: 33.33%;
-  /* margin-left: 128px; */
+  margin-left: 60px;
   /* width: 276px; */
   /* padding-left: 80px; */
 }
@@ -284,6 +282,7 @@
 /* holiday section start */
 
 .holiday-section {
+  position: relative;
 }
 
 .holiday-section .holiday-sales h5 {
@@ -314,6 +313,7 @@
   font-weight: 500;
   line-height: 32px;
   width: 1068px;
+  margin-bottom: 68px;
 }
 
 .holiday-section .holiday-sales .red {
@@ -326,9 +326,48 @@
   line-height: normal;
 }
 
-.holiday-img-discount .holy-1 {
-  padding-right: 50px;
+.img-discound{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
+
+.holiday-img-discount{
+  width: 50%;
+  text-align: left;
+}
+
+.holiday-img-discount .holy-img{
+  width: 600px;
+height: 662.07px;
+
+}
+
+.holday-img-lighting{
+  width: 50%;
+  text-align: right;
+  position: relative;
+}
+
+.holday-img-lighting .holy-img-three{
+  position: absolute;
+  top: 10%;
+}
+
+.holday-img-lighting .holy-img-two{
+  width: 429px;
+  height: 433px;
+}
+ 
+.holiday-section .holy-img-four{
+  position: absolute;
+  bottom: 38px;
+  z-index: -1;
+}
+
+
+
+
 
 /* holiday section end */
 
@@ -339,12 +378,6 @@
   width: 100px; */
   display: flex;
   flex-wrap: wrap;
-}
-
-.portfolio-section .portfolio-box {
-}
-
-.portfolio-section .portfolio-box .portfolio-text {
 }
 
 .portfolio-section .portfolio-box .portfolio-text h4 {
@@ -378,14 +411,13 @@
   margin-bottom: 48px;
 }
 
-.portfolio-section .portfolio-box .portfolio-text .portfolio-images {
-}
 
 .portfolio-images {
   box-sizing: border-box;
   content: "";
   display: table;
-  clear: both;flex-wrap: wrap;
+  clear: both;
+  flex-wrap: wrap;
 }
 
 .col-1,
@@ -395,10 +427,9 @@
 .col-5,
 .col-6 {
   float: left;
-  width: 33.33%;
+  width: 32%;
   padding: 5px;
-  width: 424px;
-  height: 450px;
+  height: 380px;
 }
 
 
@@ -409,11 +440,11 @@
 .subscribe-section {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
-  text-align: center;
+  text-align: center; 
 }
 
 .subscribe-section .subscribe-box {
-  padding-top: 80px;
+  
 }
 
 .subscribe-section .subscribe-box img {
@@ -457,6 +488,10 @@
   border-radius: 50px;
 }
 
+.form{
+ max-width: -1px;
+ min-width: 10px;
+}
 .srch {
   border-radius: 50px;
   background: #fff;
@@ -473,64 +508,44 @@
   height: 72px;
   margin-bottom: 80px;
   cursor: pointer;
+  color: #fff;
 }
 
 /* subscribe section end */
 
 /* footer section start */
-
-.footer {
+footer{
   background: #070211;
-  font-size: 14px;
-  padding: 60px 0 20px;
-  width: 100%;
 }
 
-.footer-col-1 {
-  color: #fff;
-  font-family: Inter;
+.footer-container-part-one, .footer-last-part{
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
+  padding: 70px 140px;
   line-height: 40px;
 }
 
-.footer-col-2 {
-  flex: 1;
-  text-align: right;
-  color: #fff;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
+.footer-box{
+  text-align: center;
 }
 
-.footer-col-2 call {
+.footer-icon{
+  margin: 40px 15px;
 }
 
-.app-logo img {
-  width: 64px;
-  height: 64px;
+.horizontal{
+  margin: 50px 140px;
 }
 
-.footer-col-3 {
-  color: #fff;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+hr{
+  background: rgba(255, 255, 255, 0.15);
+  height: 1px;
 }
 
-.footer-col-4 {
-  color: #fff;
-  text-align: right;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
+
 
 /* footer section  */
