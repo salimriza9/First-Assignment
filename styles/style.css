@@ -487,12 +487,11 @@
   border-radius: 50px 0px 0px 50px;
   background: #fff;
   width: 438px;
-  /* height: 72px; */
   margin-right: -5px;
   font-family: Inter;
   border: none;
   outline: none;
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 
 .btn {
@@ -514,6 +513,7 @@
 footer {
   background: #070211;
 }
+
 
 .footer-container-part-one,
 .footer-last-part {
