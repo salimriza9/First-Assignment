@@ -108,7 +108,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 16px;
 }
+
 .welcome-section .welcome-text-box {
   padding-left: 126px;
 }
@@ -164,6 +166,7 @@
     rgba(255, 0, 0, 0) 100%
   );
   padding-top: 100px;
+  border-radius: 16px;
 }
 
 .hotel-section .hotel-park h2{
@@ -262,8 +265,6 @@
 .coming-section .coming-section-right-box {
   width: 33.33%;
   margin-left: 60px;
-  /* width: 276px; */
-  /* padding-left: 80px; */
 }
 
 .coming-section .coming-section-right-box h1 {
@@ -467,7 +468,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-  /* width: 800px; */
   margin-bottom: 48px;
 }
 
