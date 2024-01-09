@@ -5,7 +5,7 @@
   font-family: "Merriweather", serif;
 }
 .container {
-  width: 82%;
+  width: 100%;
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -36,6 +36,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 16px;
 }
 
 .heading {
@@ -98,7 +99,7 @@
 /* welcome section start */
 
 .welcome-section {
-  width: 82%;
+  width: 100%;
   height: 600px;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/welcome-everybody.png");
@@ -165,13 +166,21 @@
   padding-top: 100px;
 }
 
-.hotel-section .hotel-park {
+.hotel-section .hotel-park h2{
   text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  text-transform: capitalize;
 }
 
 .hotel-section .hotel-park .red {
   color: red;
+  line-height: 56px;
+  font-family: Inter;
+  font-size: 32px;
+  text-transform: capitalize;
 }
+
 
 .hotel-section .btn-now {
   text-align: center;
@@ -218,6 +227,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 16px;
 }
 .coming-section .coming-section-left-box h1 {
   color: #070211;
@@ -227,6 +237,7 @@
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 16px;
 }
 
 .coming-section .coming-section-left-box p {
@@ -237,6 +248,7 @@
   font-weight: 400;
   line-height: 32px;
   width: 393px;
+  padding-right: 70px;
 }
 
 .coming-section .coming-section-middle-box {
@@ -244,7 +256,7 @@
   border-radius: 463px;
   border: 15px solid #f00;
   padding: 29px;
-  /* width: 463px; */
+  width: 463px;
 }
 
 .coming-section .coming-section-right-box {
@@ -270,6 +282,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  padding-right: 110px;
 }
 
 .coming-section .coming-section-right-box img {
@@ -289,30 +302,26 @@
   color: #070211;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .holiday-section .holiday-sales h1 {
   font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-align: center;
+  margin-bottom: 28px;
 }
 
 .holiday-section .holiday-sales p {
-  color: rgba(7, 2, 17, 0.6);
+  color: rgba(7, 2, 17, 0.60);
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px;
-  width: 1068px;
   margin-bottom: 68px;
 }
 
@@ -321,12 +330,10 @@
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
 }
 
-.img-discound {
+.img-discount {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -337,28 +344,29 @@
   text-align: left;
 }
 
-.holiday-img-discount .holy-img-one {
-  width: 600px;
-  height: 662.07px;
+.holiday-img-discount .holi-img-one {
+  width: 800px;
+  height: 700px;
 }
 
-.holday-img-lighting {
+.holiday-img-lighting {
   width: 50%;
   text-align: right;
   position: relative;
 }
 
-.holday-img-lighting .holy-img-three {
+.holiday-img-lighting .holi-img-three {
   position: absolute;
   top: 10%;
+  right: 300px;
 }
 
-.holday-img-lighting .holy-img-two {
+.holiday-img-lighting .holi-img-two {
   width: 429px;
   height: 433px;
 }
 
-.holiday-section .holy-img-four {
+.holiday-section .holi-img-four {
   position: absolute;
   bottom: 38px;
   z-index: -1;
@@ -369,9 +377,8 @@
 /* portfolio section start */
 
 .portfolio-section {
-  /* margin:  auto;
-  width: 100px; */
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -424,6 +431,8 @@
   width: 32%;
   padding: 5px;
   height: 380px;
+  margin-bottom: 80px;
+  padding-right: 12px;
 }
 
 /* portfolio section end */
@@ -445,57 +454,51 @@
 
 .subscribe-section .subscribe-box h1 {
   color: #070211;
-  text-align: center;
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
   margin-bottom: 22px;
 }
 
 .subscribe-section .subscribe-box p {
   color: rgba(7, 2, 17, 0.6);
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-  width: 896px;
+  /* width: 800px; */
   margin-bottom: 48px;
 }
+
 
 .search {
   color: rgba(7, 2, 17, 0.3);
   text-align: center;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   border-radius: 50px;
+  outline: none;
+
 }
 
-.form {
-  max-width: -1px;
-  min-width: 10px;
-}
 .srch {
   border-radius: 50px 0px 0px 50px;
   background: #fff;
-  width: 648px;
-  height: 72px;
-  background: #fff;
+  width: 438px;
+  /* height: 72px; */
   margin-right: -5px;
   font-family: Inter;
   border: none;
+  outline: none;
+  padding: 30px 20px;
 }
 
 .btn {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
-  width: 210px;
+  width: 200px;
   height: 72px;
   margin-bottom: 80px;
   cursor: pointer;
